@@ -1,0 +1,43 @@
+.box {
+    width: 100%;
+    height: 615px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.box .box__col1 {
+    width: 20%;
+    height: 615px;
+
+    background-color: aqua;
+}
+
+.box .box__col2 {
+    width: 80%;
+    height: 615px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.box .box__col2 .box__col2__sec1 {
+    width: 100%;
+    height: 80px;
+
+    background-color: greenyellow;
+}
+
+.box .box__col2 .box__col2__sec2 {
+    width: 100%;
+    height: 535px;
+
+    background-color: blueviolet;
+}
+
+.box .box__col3 {
+    width: 20%;
+    height: 615px;
+
+    background-color: aquamarine;
+}
